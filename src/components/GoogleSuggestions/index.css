@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google-img {
+  width: 300px;
+}
+.card-container {
+  background-color: #ffffff;
+  min-height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  width: 400px;
+  margin-top: 30px;
+  padding: 10px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.search-img {
+  width: 18px;
+  height: 25px;
+  padding-top: 6px;
+}
+.search-input {
+  outline: none;
+  width: 400px;
+  border: 0px solid #ffffff;
+  font-size: 16px;
+  color: #64748b;
+  margin: 5px;
+}
+@media (max-width: 567px) {
+  .search-input {
+    font-size: 14px;
+    width: 300px;
+  }
+  .google-img {
+    width: 200px;
+  }
+  .card-container {
+    width: 295px;
+  }
+}

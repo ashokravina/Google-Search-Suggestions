@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+}
+.arrow-img {
+  width: 25px;
+  height: 20px;
+}
